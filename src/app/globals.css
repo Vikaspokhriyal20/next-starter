@@ -1,0 +1,86 @@
+/* Google Font Family Rajdhani  */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Rajdhani;
+}
+
+body
+{
+    background-color:#FFF;
+}
+
+
+p
+{
+    font-weight: 500;
+}
+
+li
+{
+    list-style: none;
+    font-weight: 500;
+}
+
+a
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+.container
+{
+    max-width:1050px;
+    margin-inline:auto;
+    padding: 2rem 1rem;
+}
+
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-gap
+{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.h-70
+{
+    min-height: 70vh;
+}
+
+
+#loading-text
+{
+    color:red;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-align:center;
+}
+
+.go-to-home
+{
+    color: red;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:500px) {
+    .flex
+    {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
