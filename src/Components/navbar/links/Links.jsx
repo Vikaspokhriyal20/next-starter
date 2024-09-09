@@ -1,35 +1,40 @@
+
 import Link from 'next/link';
-import React from 'react'
 
 const Links = () => {
+
     const links = [
         {
             title: "Home",
-            path: "/"
+            path: "/",
         },
         {
             title: "About",
-            path: "/about"
+            path: "/about",
         },
         {
             title: "Contact",
-            path: "/contact"
+            path: "/contact",
         },
         {
             title: "Blog",
-            path: "/blog"
+            path: "/blog",
         },
         {
             title: "Docs",
-            path: "/docs"
+            path: "/docs",
         },
     ];
 
     return (
         <>
-            {links.map((link => (
-                <Link key={link.title} href={link.path}>{link.title}</Link>
-            )))}
+            {
+                links.map((link) => {
+                    return (
+                            <Link key={link.title} href={link.path}>{link.title}</Link>
+                    )
+                })
+            }
         </>
     )
 }

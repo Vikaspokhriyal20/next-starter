@@ -6,7 +6,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 export const metadata = {
   title: 'Next App',
-  description: 'Next.js starter app',
+  description: 'Next Js is on the way',
 }
 
 export default function RootLayout({ children }) {

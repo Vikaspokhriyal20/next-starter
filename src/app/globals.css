@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Rajdhani;
+    font-family: Rajdhani , calibri;
 }
 
 body
@@ -48,25 +48,13 @@ a
     align-items: center;
 }
 
-.link-gap
-{
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-}
 
-.h-70
+.loadingtext
 {
-    min-height: 70vh;
-}
-
-
-#loading-text
-{
-    color:red;
-    letter-spacing: 1px;
+    text-align: center;
     font-weight: 600;
-    text-align:center;
+    color:crimson;
+    letter-spacing: 1px;
 }
 
 .go-to-home
@@ -76,11 +64,40 @@ a
     font-weight: 600;
 }
 
-@media screen and (max-width:500px) {
-    .flex
-    {
-        flex-direction: column;
-        gap: 2rem;
-    }
+.home-content
+{
+    background-color: violet;
+    padding: 1rem;
+    text-align: center;
 }
+
+.home-content h2
+{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.home-content p
+{
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.qoute-box
+{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.child-box
+{
+    background-color: #fff;
+    color: black;
+    text-align: left;
+    padding: 2rem 1rem;
+}
+
+
+
 

@@ -1,0 +1,23 @@
+.links
+{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.smallscreen
+{
+    display: none;
+}
+
+
+@media screen and (max-width:650px) {
+    .links{
+        display: none;
+    }
+
+    .smallscreen
+    {
+        display: block;
+    }
+}

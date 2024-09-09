@@ -1,0 +1,13 @@
+.title
+{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: blueviolet;
+}
+
+.container
+{
+    max-width: 1050px;
+    margin-inline: auto;
+    padding: 2rem 1rem;
+}

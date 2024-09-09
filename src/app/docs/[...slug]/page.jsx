@@ -1,9 +1,9 @@
-import React from 'react'
 
-const page = () => {
+const page = ({params}) => {
+  
   return (
     <div className='container'>
-      <p>This is Docs </p>
+      <p>This is Docs {params.slug}</p>
     </div>
   )
 }
