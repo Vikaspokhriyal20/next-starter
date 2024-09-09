@@ -1,5 +1,5 @@
 /* Google Font Family Rajdhani  */
-@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
 
 
 *
@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Rajdhani , calibri;
+    font-family: Arya , calibri;
 }
 
 body
@@ -32,7 +32,7 @@ a
 {
     text-decoration: none;
     font-weight: 500;
-    color: #000;
+    color:black;
     letter-spacing: 1px;
 }
 
@@ -40,7 +40,7 @@ a
 {
     max-width:1050px;
     margin-inline:auto;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .flex
@@ -69,9 +69,9 @@ a
 
 .home-content
 {
-    background-color: violet;
     padding: 1rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .home-content h2
@@ -91,14 +91,15 @@ a
     display: flex;
     gap: 1rem;
     margin-top: 2rem;
+    justify-content: center;
 }
 
 .child-box
 {
-    background-color: #fff;
-    color: black;
+    color: white;
     text-align: left;
-    padding: 2rem 1rem;
+    padding: 2rem;
+    background-color: blueviolet;
 }
 
 

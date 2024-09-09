@@ -6,14 +6,13 @@ display: none;
 
 .mobileLink
 {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
-    gap: 2rem;
     position: absolute;
     top: 70px;
     right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2rem;
     width: 40%;
     background-color:blanchedalmond;
     padding: 2rem;

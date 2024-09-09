@@ -13,10 +13,6 @@ const Home = () => {
             <h4>To invent you need a good imagination and a pile of junk.</h4>
             <p>Thomas Edison</p>
           </div>
-          <div className="child-box">
-            <h4>To invent you need a good imagination and a pile of junk.</h4>
-            <p>Thomas Edison</p>
-          </div>
         </div>
       </div>
     </section>
