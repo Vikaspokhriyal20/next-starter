@@ -3,11 +3,11 @@
 import { useRouter } from 'next/navigation'
 import styles from './docs.module.css'
 
-const page = ({ params }) => {
-  const router = useRouter();
+const DocsDetails = ({ params }) => {
+  const Router = useRouter();
 
   const handleRouter = () => {
-    router.back();
+    Router.back();
   }
   return (
     <div className='container'>
@@ -17,4 +17,4 @@ const page = ({ params }) => {
   )
 }
 
-export default page
+export default DocsDetails
