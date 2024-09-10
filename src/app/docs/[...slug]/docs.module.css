@@ -11,3 +11,25 @@
     margin-inline: auto;
     padding: 2rem 1rem;
 }
+
+.btn
+{
+    background-color:black;
+    color: white;
+    padding: 0.4rem 1.2rem;
+    border:none;
+    outline:none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover
+{
+    filter: sepia(100%);
+    filter: drop-shadow(4px 2px 4px lightgreen);
+
+}
