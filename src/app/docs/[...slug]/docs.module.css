@@ -16,15 +16,17 @@
 {
     background-color:black;
     color: white;
-    padding: 0.4rem 1.2rem;
+    padding: 0.4rem 0.8rem;
     border:none;
     outline:none;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 0.8rem;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-radius: 4px;
     transition: all 0.2s ease;
+    font-size:0.7rem;
+    text-align: center;
 }
 
 .btn:hover
