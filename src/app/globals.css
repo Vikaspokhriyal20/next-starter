@@ -1,13 +1,11 @@
-/* Google Font Family Rajdhani  */
 @import url('https://fonts.googleapis.com/css2?family=Arya:wght@400;700&display=swap');
-
 
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arya , calibri;
+    font-family: Arya;
 }
 
 body
@@ -34,6 +32,22 @@ a
     font-weight: 500;
     color:black;
     letter-spacing: 1px;
+}
+
+.btn
+{
+    background-color: black;
+    letter-spacing: 1px;
+    border: none;
+    outline:none;
+    padding: 0.4rem 0.8rem;
+    border-radius:2px;
+    filter: drop-shadow(4px 2px 4px lightgreen);
+    color:white;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top:1rem;
+
 }
 
 .container
