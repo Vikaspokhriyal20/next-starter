@@ -1,8 +1,10 @@
 'use client'
 import { useRouter } from 'next/navigation'
+import styles from './blogdetail.module.css'
 
 
 const BlogDetails = ({ params }) => {
+  console.log(params.slug);
   const router = useRouter();
 
   const handleForward = () => {
@@ -10,7 +12,7 @@ const BlogDetails = ({ params }) => {
   }
   return (
     <div className='container'>
-      <p>Frist Blog Post : {params.slug}</p>
+      <p className={styles.titletext}> Blog Details : <kbd className={styles.recipetext}>{params.slug}</kbd></p>
       <button className='btn' onClick={handleForward}>Go Back</button>
     </div>
   )

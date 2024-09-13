@@ -6,7 +6,7 @@ const BlogPost = () => {
     const blogpost = [
         {
             postTitle: 'Mango Chutney',
-            postImage: '/mango.jpg',
+            postImage: '/mango2.jpg',
             postDetails:'/blog/mango-chutney',
         },
         {
@@ -39,10 +39,12 @@ const BlogPost = () => {
               blogpost.map((post) => {
                   return (
                       <div key={post.postTitle} className={styles.blogcard}>
+                          <div className={styles.wrapper}>
                           <Image src={post.postImage} width={200} height={200} alt='img' className={styles.cardimg} />
                           <div className={styles.blogcontent}>
                           <h4>{post.postTitle}</h4>
                           <Link href={post.postDetails}>See More</Link> 
+                          </div>
                           </div>
                       </div>
                   )

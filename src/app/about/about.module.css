@@ -1,0 +1,38 @@
+.aboutbanner
+{
+    object-fit: cover;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.aboutcontainer
+{
+    max-width:1000px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.storycontent p
+{
+    font-size: 0.9rem;
+    text-align: left;
+    letter-spacing: 1px;
+    color: black;
+
+
+}
+
+.storycontent
+{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.rating
+{
+    padding: 1rem 2rem;
+    text-align: center;
+}
