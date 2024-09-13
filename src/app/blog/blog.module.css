@@ -16,25 +16,6 @@
     padding: 1rem;
 }
 
-.cardimg
-{
-    object-fit: cover;
-    object-position: center;
-    width: 100%;
-}
-
-.blogcard
-{
-    text-align: left;
-}
-
-.blogcard h4
-{
-    font-weight: 600;
-    
-}
-
-
 
 @media screen and (max-width:700px) {
     .gridcontainer

@@ -13,6 +13,12 @@ body
     background-color:#FFF;
 }
 
+.active
+{
+    color: blueviolet;
+    font-weight: 700;
+
+}
 
 p
 {
@@ -33,6 +39,7 @@ a
     color:black;
     letter-spacing: 1px;
 }
+
 
 .btn
 {
@@ -70,9 +77,10 @@ a
 {
     text-align: center;
     font-weight: 500;
-    color:crimson;
+    color:black;
+    filter: drop-shadow(4px 2px 4px lightgreen);
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .go-to-home

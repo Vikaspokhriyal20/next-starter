@@ -1,0 +1,30 @@
+.cardimg
+{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+.blogcard
+{
+    text-align: left;
+    background-color:blanchedalmond;
+}
+
+.blogcontent
+{
+    padding: 0.4rem 0.8rem;
+}
+
+.blogcontent a
+{
+    font-size: 0.9rem;
+    color: dimgray;
+}
+
+.blogcontent h4
+{
+    font-size: 1rem;
+    letter-spacing: 1px;
+
+}
